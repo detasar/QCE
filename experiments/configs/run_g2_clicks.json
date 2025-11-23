@@ -1,0 +1,29 @@
+{
+  "args": {
+    "N": "3000",
+    "cmd": "run_g2_clicks",
+    "config": "configs/grid_chsh.yml",
+    "rep": "6"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g2_clicks",
+    "--config",
+    "configs/grid_chsh.yml",
+    "--rep",
+    "6",
+    "--N",
+    "3000"
+  ],
+  "command": "run_g2_clicks",
+  "seeds": [
+    24601
+  ],
+  "timestamp": "2025-11-06T01:06:57Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

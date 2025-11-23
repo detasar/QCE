@@ -1,0 +1,29 @@
+{
+  "args": {
+    "alpha": "0.20",
+    "cmd": "run_g4_cmi_polish",
+    "config": "configs/grid_chsh.yml",
+    "rep": "6"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g4_cmi_polish",
+    "--config",
+    "configs/grid_chsh.yml",
+    "--alpha",
+    "0.20",
+    "--rep",
+    "6"
+  ],
+  "command": "run_g4_cmi_polish",
+  "seeds": [
+    1312
+  ],
+  "timestamp": "2025-11-06T01:03:00Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

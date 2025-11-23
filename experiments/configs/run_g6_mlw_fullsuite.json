@@ -1,0 +1,45 @@
+{
+  "args": {
+    "K": "11",
+    "alpha": "0.20",
+    "calib": "isotonic",
+    "cmd": "run_g6_mlw_fullsuite",
+    "cv": "5",
+    "h": "0.25",
+    "method": "knn",
+    "rep_big": "40",
+    "score_calib": "isotonic"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g6_mlw_fullsuite",
+    "--rep_big",
+    "40",
+    "--alpha",
+    "0.20",
+    "--method",
+    "knn",
+    "--K",
+    "11",
+    "--h",
+    "0.25",
+    "--calib",
+    "isotonic",
+    "--cv",
+    "5",
+    "--score_calib",
+    "isotonic"
+  ],
+  "command": "run_g6_mlw_fullsuite",
+  "seeds": [
+    2468,
+    1357
+  ],
+  "timestamp": "2025-11-06T01:09:14Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

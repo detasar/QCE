@@ -1,0 +1,26 @@
+{
+  "args": {
+    "calib": "isotonic",
+    "cmd": "run_g5_kh_alpha_surface",
+    "rep": "6"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g5_kh_alpha_surface",
+    "--rep",
+    "6",
+    "--calib",
+    "isotonic"
+  ],
+  "command": "run_g5_kh_alpha_surface",
+  "seeds": [
+    2718
+  ],
+  "timestamp": "2025-11-06T01:03:21Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

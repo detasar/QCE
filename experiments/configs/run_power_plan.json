@@ -1,0 +1,30 @@
+{
+  "args": {
+    "alpha": "0.05",
+    "cmd": "run_power_plan",
+    "p0": "0.05",
+    "p1": "0.2",
+    "power": "0.8"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_power_plan",
+    "--p0",
+    "0.05",
+    "--p1",
+    "0.2",
+    "--alpha",
+    "0.05",
+    "--power",
+    "0.8"
+  ],
+  "command": "run_power_plan",
+  "seeds": [],
+  "timestamp": "2025-11-06T00:59:32Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

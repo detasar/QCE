@@ -1,0 +1,41 @@
+{
+  "args": {
+    "K": "11",
+    "N": "3000",
+    "calib": "isotonic",
+    "cmd": "run_g2_colored",
+    "config": "configs/grid_chsh.yml",
+    "h": "0.25",
+    "method": "knn",
+    "rep": "6"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g2_colored",
+    "--config",
+    "configs/grid_chsh.yml",
+    "--rep",
+    "6",
+    "--N",
+    "3000",
+    "--method",
+    "knn",
+    "--K",
+    "11",
+    "--h",
+    "0.25",
+    "--calib",
+    "isotonic"
+  ],
+  "command": "run_g2_colored",
+  "seeds": [
+    101
+  ],
+  "timestamp": "2025-11-06T01:06:26Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

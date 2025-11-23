@@ -1,0 +1,31 @@
+{
+  "args": {
+    "K": 11,
+    "N": "1000",
+    "calib": "none",
+    "cew": "configs/cew.yml",
+    "cmd": "run_external_validation",
+    "csv": "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/mock_bbt.csv",
+    "h": 0.25,
+    "method": "knn",
+    "mock": true
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_external_validation",
+    "--mock",
+    "--cew",
+    "configs/cew.yml",
+    "--N",
+    "1000"
+  ],
+  "command": "run_external_validation",
+  "seeds": [],
+  "timestamp": "2025-11-23T00:44:49Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

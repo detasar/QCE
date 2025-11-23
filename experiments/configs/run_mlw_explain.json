@@ -1,0 +1,18 @@
+{
+  "args": {
+    "cmd": "run_mlw_explain"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_mlw_explain"
+  ],
+  "command": "run_mlw_explain",
+  "seeds": [],
+  "timestamp": "2025-11-06T01:09:30Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

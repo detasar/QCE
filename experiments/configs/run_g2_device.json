@@ -1,0 +1,53 @@
+{
+  "args": {
+    "K": "11",
+    "L_mode": "formula",
+    "N": "3000",
+    "boot": 1500,
+    "c_cew": null,
+    "calib": "isotonic",
+    "cew": "configs/cew.yml",
+    "cew_scale": null,
+    "cmd": "run_g2_device",
+    "config": "configs/grid_chsh.yml",
+    "gamma": 1.0,
+    "h": "0.25",
+    "method": "knn",
+    "mu_C": 0.7071067811865476,
+    "power_preset": false,
+    "rep": "6",
+    "sA": 0.0,
+    "tau": 1.0
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_g2_device",
+    "--config",
+    "configs/grid_chsh.yml",
+    "--cew",
+    "configs/cew.yml",
+    "--rep",
+    "6",
+    "--N",
+    "3000",
+    "--method",
+    "knn",
+    "--K",
+    "11",
+    "--h",
+    "0.25",
+    "--calib",
+    "isotonic"
+  ],
+  "command": "run_g2_device",
+  "seeds": [
+    42
+  ],
+  "timestamp": "2025-11-06T01:06:17Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

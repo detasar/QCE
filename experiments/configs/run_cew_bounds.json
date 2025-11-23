@@ -1,0 +1,18 @@
+{
+  "args": {
+    "cmd": "run_cew_bounds"
+  },
+  "argv": [
+    "/Users/Lenovo1/Downloads/quantum-conformal-entanglement/src/cli.py",
+    "run_cew_bounds"
+  ],
+  "command": "run_cew_bounds",
+  "seeds": [],
+  "timestamp": "2025-11-06T01:04:18Z",
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}
