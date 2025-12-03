@@ -128,7 +128,7 @@ If you use this code, please cite our papers:
 @article{tasar2025tara,
   title={TARA: Test-by-Adaptive-Ranks for Quantum Anomaly Detection
          with Conformal Prediction Guarantees},
-  author={Ta{\c{s}}ar, Davut Emre},
+  author={Ta{\c{s}}ar, Davut Emre and {\"O}cal Ta{\c{s}}ar, Ceren},
   journal={arXiv preprint arXiv:2501.xxxxx},
   year={2025}
 }
@@ -150,11 +150,15 @@ If you use this code, please cite our papers:
 }
 ```
 
-## Author
+## Authors
 
 **Davut Emre Taşar**
 Independent Researcher, Madrid, Spain
 📧 detasar@gmail.com
+
+**Ceren Öcal Taşar** (Paper 1 co-author)
+Independent Researcher, Madrid, Spain
+📧 ceren.ocaltasar@gmail.com
 
 ## License
 

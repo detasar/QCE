@@ -58,7 +58,7 @@ print(f"p-value: {result['p_value']:.4f}")
 @article{tasar2025tara,
   title={TARA: Test-by-Adaptive-Ranks for Quantum Anomaly Detection
          with Conformal Prediction Guarantees},
-  author={Ta{\c{s}}ar, Davut Emre},
+  author={Ta{\c{s}}ar, Davut Emre and {\"O}cal Ta{\c{s}}ar, Ceren},
   journal={arXiv preprint},
   year={2025}
 }
