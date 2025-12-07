@@ -1,0 +1,159 @@
+{
+  "experiment": "exp_1_7_cascade",
+  "timestamp": "2025-12-07T02:53:26.552112",
+  "tests": {
+    "ideal": {
+      "visibility": 1.0,
+      "key_length": 9647,
+      "expected_qber": 0.0,
+      "actual_qber": 0.0,
+      "initial_errors": 0,
+      "final_errors": 0,
+      "bits_leaked": 251,
+      "expected_leakage": 0,
+      "n_passes": 4,
+      "success": "True",
+      "verified": "True",
+      "remaining_key_bits": 9396
+    },
+    "low_qber": {
+      "visibility": 0.96,
+      "key_length": 9445,
+      "expected_qber": 0.020000000000000018,
+      "actual_qber": 0.020328215987294864,
+      "initial_errors": 192,
+      "final_errors": 8,
+      "bits_leaked": 1573,
+      "expected_leakage": 1569.7981618645251,
+      "n_passes": 4,
+      "success": "False",
+      "verified": false,
+      "remaining_key_bits": 7872
+    },
+    "moderate_qber": {
+      "visibility": 0.9,
+      "key_length": 9501,
+      "expected_qber": 0.04999999999999999,
+      "actual_qber": 0.05283654352173455,
+      "initial_errors": 502,
+      "final_errors": 10,
+      "bits_leaked": 3547,
+      "expected_leakage": 3287.902201910628,
+      "n_passes": 4,
+      "success": "False",
+      "verified": false,
+      "remaining_key_bits": 5954
+    },
+    "high_qber": {
+      "visibility": 0.8,
+      "key_length": 9421,
+      "expected_qber": 0.09999999999999998,
+      "actual_qber": 0.10359834412482752,
+      "initial_errors": 976,
+      "final_errors": 28,
+      "bits_leaked": 5840,
+      "expected_leakage": 5248.884562898543,
+      "n_passes": 4,
+      "success": "False",
+      "verified": false,
+      "remaining_key_bits": 3581
+    },
+    "qber_sweep": {
+      "results": [
+        {
+          "visibility": 1.0,
+          "key_length": 7123,
+          "expected_qber": 0.0,
+          "actual_qber": 0.0,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "bits_leaked": 185,
+          "expected_leakage": 0,
+          "n_passes": 4,
+          "success": "True",
+          "verified": "True",
+          "remaining_key_bits": 6938
+        },
+        {
+          "visibility": 0.96,
+          "key_length": 7111,
+          "expected_qber": 0.020000000000000018,
+          "actual_qber": 0.018844044438194346,
+          "initial_errors": 134,
+          "final_errors": 16,
+          "bits_leaked": 1050,
+          "expected_leakage": 1112.7581657849519,
+          "n_passes": 4,
+          "success": "False",
+          "verified": false,
+          "remaining_key_bits": 6061
+        },
+        {
+          "visibility": 0.92,
+          "key_length": 7154,
+          "expected_qber": 0.03999999999999998,
+          "actual_qber": 0.043052837573385516,
+          "initial_errors": 308,
+          "final_errors": 8,
+          "bits_leaked": 2244,
+          "expected_leakage": 2125.4341793699773,
+          "n_passes": 4,
+          "success": "False",
+          "verified": false,
+          "remaining_key_bits": 4910
+        },
+        {
+          "visibility": 0.88,
+          "key_length": 7115,
+          "expected_qber": 0.06,
+          "actual_qber": 0.05593815881939564,
+          "initial_errors": 398,
+          "final_errors": 36,
+          "bits_leaked": 2682,
+          "expected_leakage": 2567.6764631935466,
+          "n_passes": 4,
+          "success": "False",
+          "verified": false,
+          "remaining_key_bits": 4433
+        },
+        {
+          "visibility": 0.84,
+          "key_length": 7146,
+          "expected_qber": 0.08000000000000002,
+          "actual_qber": 0.08130422614049818,
+          "initial_errors": 581,
+          "final_errors": 0,
+          "bits_leaked": 3760,
+          "expected_leakage": 3371.7645098393677,
+          "n_passes": 4,
+          "success": "True",
+          "verified": "True",
+          "remaining_key_bits": 3386
+        },
+        {
+          "visibility": 0.8,
+          "key_length": 7144,
+          "expected_qber": 0.09999999999999998,
+          "actual_qber": 0.1013437849944009,
+          "initial_errors": 724,
+          "final_errors": 34,
+          "bits_leaked": 4333,
+          "expected_leakage": 3921.7660638638386,
+          "n_passes": 4,
+          "success": "False",
+          "verified": false,
+          "remaining_key_bits": 2811
+        }
+      ],
+      "all_success": false
+    }
+  },
+  "summary": {
+    "ideal_passed": true,
+    "low_qber_passed": "False",
+    "moderate_qber_passed": "False",
+    "high_qber_passed": false,
+    "sweep_passed": false,
+    "overall_passed": false
+  }
+}

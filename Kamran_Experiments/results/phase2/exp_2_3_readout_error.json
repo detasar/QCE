@@ -1,0 +1,477 @@
+{
+  "experiment": "exp_2_3_readout_error",
+  "timestamp": "2025-12-07T03:24:57.925842",
+  "tests": {
+    "symmetric_sweep": {
+      "type": "symmetric_sweep",
+      "results": [
+        {
+          "p_symmetric": 0.0,
+          "result": {
+            "p01": 0.0,
+            "p10": 0.0,
+            "asymmetry": 0,
+            "n_pairs": 8000,
+            "n_sifted": 3515,
+            "sifting_rate": 0.489349853821523,
+            "chsh_value": 2.732696484086918,
+            "chsh_std": 0.10254616694648566,
+            "chsh_violation": true,
+            "qber": 0.0,
+            "qber_ci": 0.0054129227648047505,
+            "qber_theory": 0.0,
+            "chsh_theory": 2.8284271247461903
+          }
+        },
+        {
+          "p_symmetric": 0.01,
+          "result": {
+            "p01": 0.01,
+            "p10": 0.01,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3635,
+            "sifting_rate": 0.5030445613063936,
+            "chsh_value": 2.5667068359619902,
+            "chsh_std": 0.11039843539330067,
+            "chsh_violation": true,
+            "qber": 0.008264462809917356,
+            "qber_ci": 0.01059921184736062,
+            "qber_theory": 0.0198,
+            "chsh_theory": 2.7718585822512662
+          }
+        },
+        {
+          "p_symmetric": 0.02,
+          "result": {
+            "p01": 0.02,
+            "p10": 0.02,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3654,
+            "sifting_rate": 0.5104064813521442,
+            "chsh_value": 2.6071846538097,
+            "chsh_std": 0.10587016502548584,
+            "chsh_violation": true,
+            "qber": 0.0410958904109589,
+            "qber_ci": 0.02081500945883811,
+            "qber_theory": 0.0392,
+            "chsh_theory": 2.7152900397563426
+          }
+        },
+        {
+          "p_symmetric": 0.03,
+          "result": {
+            "p01": 0.03,
+            "p10": 0.03,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3613,
+            "sifting_rate": 0.5009011507001248,
+            "chsh_value": 2.3730214751826777,
+            "chsh_std": 0.11475201870500347,
+            "chsh_violation": true,
+            "qber": 0.06925207756232687,
+            "qber_ci": 0.02644309071762602,
+            "qber_theory": 0.058199999999999995,
+            "chsh_theory": 2.6587214972614186
+          }
+        },
+        {
+          "p_symmetric": 0.05,
+          "result": {
+            "p01": 0.05,
+            "p10": 0.05,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3524,
+            "sifting_rate": 0.4919039642657733,
+            "chsh_value": 2.318482781847268,
+            "chsh_std": 0.11236955019428903,
+            "chsh_violation": true,
+            "qber": 0.07954545454545454,
+            "qber_ci": 0.028478436432903043,
+            "qber_theory": 0.095,
+            "chsh_theory": 2.545584412271571
+          }
+        },
+        {
+          "p_symmetric": 0.07,
+          "result": {
+            "p01": 0.07,
+            "p10": 0.07,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3674,
+            "sifting_rate": 0.5109164233069114,
+            "chsh_value": 2.0529451350022465,
+            "chsh_std": 0.12135484409615951,
+            "chsh_violation": true,
+            "qber": 0.11171662125340599,
+            "qber_ci": 0.0323131548110477,
+            "qber_theory": 0.1302,
+            "chsh_theory": 2.4324473272817233
+          }
+        },
+        {
+          "p_symmetric": 0.1,
+          "result": {
+            "p01": 0.1,
+            "p10": 0.1,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3635,
+            "sifting_rate": 0.5045807884508606,
+            "chsh_value": 1.6060477486275588,
+            "chsh_std": 0.1299032694776913,
+            "chsh_violation": false,
+            "qber": 0.18732782369146006,
+            "qber_ci": 0.0400611217100198,
+            "qber_theory": 0.18000000000000002,
+            "chsh_theory": 2.2627416997969525
+          }
+        },
+        {
+          "p_symmetric": 0.15,
+          "result": {
+            "p01": 0.15,
+            "p10": 0.15,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3565,
+            "sifting_rate": 0.49417798724701967,
+            "chsh_value": 1.3204839377090085,
+            "chsh_std": 0.13441577291597645,
+            "chsh_violation": false,
+            "qber": 0.28370786516853935,
+            "qber_ci": 0.046634386676036546,
+            "qber_theory": 0.255,
+            "chsh_theory": 1.9798989873223332
+          }
+        }
+      ]
+    },
+    "asymmetric_test": {
+      "type": "asymmetric_test",
+      "results": [
+        {
+          "name": "Symmetric 5%",
+          "config": {
+            "name": "Symmetric 5%",
+            "p01": 0.05,
+            "p10": 0.05
+          },
+          "result": {
+            "p01": 0.05,
+            "p10": 0.05,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3573,
+            "sifting_rate": 0.499510694813365,
+            "chsh_value": 2.207986571830762,
+            "chsh_std": 0.11417968398862327,
+            "chsh_violation": true,
+            "qber": 0.11484593837535013,
+            "qber_ci": 0.033151608123481224,
+            "qber_theory": 0.095,
+            "chsh_theory": 2.545584412271571
+          },
+          "secure": false
+        },
+        {
+          "name": "Asymmetric (high p10)",
+          "config": {
+            "name": "Asymmetric (high p10)",
+            "p01": 0.02,
+            "p10": 0.08
+          },
+          "result": {
+            "p01": 0.02,
+            "p10": 0.08,
+            "asymmetry": 0.6,
+            "n_pairs": 8000,
+            "n_sifted": 3582,
+            "sifting_rate": 0.49791492910758967,
+            "chsh_value": 2.183396178010603,
+            "chsh_std": 0.11778375609976843,
+            "chsh_violation": true,
+            "qber": 0.08379888268156424,
+            "qber_ci": 0.028889725017458224,
+            "qber_theory": 0.0968,
+            "chsh_theory": 2.5455844122715714
+          },
+          "secure": true
+        },
+        {
+          "name": "Asymmetric (high p01)",
+          "config": {
+            "name": "Asymmetric (high p01)",
+            "p01": 0.08,
+            "p10": 0.02
+          },
+          "result": {
+            "p01": 0.08,
+            "p10": 0.02,
+            "asymmetry": 0.6,
+            "n_pairs": 8000,
+            "n_sifted": 3533,
+            "sifting_rate": 0.492404181184669,
+            "chsh_value": 2.21304799456898,
+            "chsh_std": 0.11589910545263064,
+            "chsh_violation": true,
+            "qber": 0.08781869688385269,
+            "qber_ci": 0.029699319954414,
+            "qber_theory": 0.0968,
+            "chsh_theory": 2.5455844122715714
+          },
+          "secure": true
+        },
+        {
+          "name": "Realistic IBM-like",
+          "config": {
+            "name": "Realistic IBM-like",
+            "p01": 0.01,
+            "p10": 0.03
+          },
+          "result": {
+            "p01": 0.01,
+            "p10": 0.03,
+            "asymmetry": 0.4999999999999999,
+            "n_pairs": 8000,
+            "n_sifted": 3567,
+            "sifting_rate": 0.495210329029571,
+            "chsh_value": 2.5365223832210537,
+            "chsh_std": 0.10963009379272158,
+            "chsh_violation": true,
+            "qber": 0.056179775280898875,
+            "qber_ci": 0.02425897028036292,
+            "qber_theory": 0.0394,
+            "chsh_theory": 2.7152900397563426
+          },
+          "secure": true
+        },
+        {
+          "name": "Realistic IonQ-like",
+          "config": {
+            "name": "Realistic IonQ-like",
+            "p01": 0.005,
+            "p10": 0.005
+          },
+          "result": {
+            "p01": 0.005,
+            "p10": 0.005,
+            "asymmetry": 0.0,
+            "n_pairs": 8000,
+            "n_sifted": 3513,
+            "sifting_rate": 0.4906424581005587,
+            "chsh_value": 2.7886014946639563,
+            "chsh_std": 0.09907273196752772,
+            "chsh_violation": true,
+            "qber": 0.005698005698005698,
+            "qber_ci": 0.009485250744343266,
+            "qber_theory": 0.00995,
+            "chsh_theory": 2.8001428534987283
+          },
+          "secure": true
+        },
+        {
+          "name": "High asymmetry",
+          "config": {
+            "name": "High asymmetry",
+            "p01": 0.01,
+            "p10": 0.1
+          },
+          "result": {
+            "p01": 0.01,
+            "p10": 0.1,
+            "asymmetry": 0.8181818181818182,
+            "n_pairs": 8000,
+            "n_sifted": 3556,
+            "sifting_rate": 0.49971894322653176,
+            "chsh_value": 2.419327532639681,
+            "chsh_std": 0.10763789812419335,
+            "chsh_violation": true,
+            "qber": 0.09577464788732394,
+            "qber_ci": 0.030754076464664278,
+            "qber_theory": 0.10800000000000001,
+            "chsh_theory": 2.5173001410241094
+          },
+          "secure": true
+        }
+      ]
+    },
+    "threshold_search": {
+      "type": "threshold_search",
+      "results": [
+        {
+          "p_error": 0.0,
+          "chsh": 2.9617617281848094,
+          "qber": 0.0,
+          "violation": true
+        },
+        {
+          "p_error": 0.01,
+          "chsh": 2.651868502687825,
+          "qber": 0.04054054054054054,
+          "violation": true
+        },
+        {
+          "p_error": 0.02,
+          "chsh": 2.8507770164140425,
+          "qber": 0.05333333333333334,
+          "violation": true
+        },
+        {
+          "p_error": 0.03,
+          "chsh": 2.482021065196308,
+          "qber": 0.04484304932735426,
+          "violation": true
+        },
+        {
+          "p_error": 0.04,
+          "chsh": 2.304726152746667,
+          "qber": 0.05454545454545454,
+          "violation": true
+        },
+        {
+          "p_error": 0.05,
+          "chsh": 2.5494425329463777,
+          "qber": 0.08482142857142858,
+          "violation": true
+        },
+        {
+          "p_error": 0.06,
+          "chsh": 2.161557257495923,
+          "qber": 0.12727272727272726,
+          "violation": true
+        },
+        {
+          "p_error": 0.07,
+          "chsh": 2.2910120105954497,
+          "qber": 0.13274336283185842,
+          "violation": true
+        },
+        {
+          "p_error": 0.08,
+          "chsh": 1.9344632522202614,
+          "qber": 0.18777292576419213,
+          "violation": false
+        },
+        {
+          "p_error": 0.09,
+          "chsh": 2.158194394017659,
+          "qber": 0.15283842794759825,
+          "violation": true
+        },
+        {
+          "p_error": 0.1,
+          "chsh": 1.7311584867850498,
+          "qber": 0.21333333333333335,
+          "violation": false
+        },
+        {
+          "p_error": 0.11,
+          "chsh": 1.6798366550171036,
+          "qber": 0.17333333333333334,
+          "violation": false
+        },
+        {
+          "p_error": 0.12,
+          "chsh": 1.7692557178948145,
+          "qber": 0.2073732718894009,
+          "violation": false
+        },
+        {
+          "p_error": 0.13,
+          "chsh": 1.6502906827185266,
+          "qber": 0.23660714285714285,
+          "violation": false
+        },
+        {
+          "p_error": 0.14,
+          "chsh": 1.5233639654692286,
+          "qber": 0.2648401826484018,
+          "violation": false
+        },
+        {
+          "p_error": 0.15,
+          "chsh": 1.7552531127463693,
+          "qber": 0.2600896860986547,
+          "violation": false
+        }
+      ],
+      "chsh_threshold": 0.08,
+      "qber_threshold": 0.06
+    },
+    "comparison": {
+      "type": "comparison",
+      "results": [
+        {
+          "error_level": 0.02,
+          "readout": {
+            "chsh": 2.441120589652982,
+            "qber": 0.02973977695167286,
+            "violation": true
+          },
+          "gate": {
+            "chsh": 2.5962654924983695,
+            "qber": 0.07326007326007326,
+            "violation": true
+          }
+        },
+        {
+          "error_level": 0.05,
+          "readout": {
+            "chsh": 2.298616983235523,
+            "qber": 0.10486891385767791,
+            "violation": true
+          },
+          "gate": {
+            "chsh": 2.1948049503664278,
+            "qber": 0.08178438661710037,
+            "violation": true
+          }
+        },
+        {
+          "error_level": 0.1,
+          "readout": {
+            "chsh": 1.8255527865390675,
+            "qber": 0.11439114391143912,
+            "violation": false
+          },
+          "gate": {
+            "chsh": 1.8669528243484688,
+            "qber": 0.18587360594795538,
+            "violation": false
+          }
+        }
+      ]
+    }
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "QBER matches theory",
+        "passed": "True",
+        "detail": "Mean relative error: 18.3%"
+      },
+      {
+        "name": "CHSH decreases with readout error",
+        "passed": true,
+        "detail": "Decreasing pairs: 7/7"
+      },
+      {
+        "name": "CHSH threshold in expected range",
+        "passed": "True",
+        "detail": "Found: p=0.0800"
+      }
+    ],
+    "all_passed": true
+  },
+  "summary": {
+    "overall_passed": true,
+    "chsh_threshold": 0.08,
+    "qber_threshold": 0.06,
+    "n_secure_asymmetric": 5
+  }
+}

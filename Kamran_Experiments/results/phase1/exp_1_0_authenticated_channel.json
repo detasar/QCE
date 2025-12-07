@@ -1,0 +1,31 @@
+{
+  "experiment": "exp_1_0_authenticated_channel",
+  "timestamp": "2025-12-07T02:33:37.239071",
+  "tests": {
+    "basic_authentication": {
+      "passed": true,
+      "error": null
+    },
+    "tampered_message": {
+      "passed": true,
+      "error": null
+    },
+    "replay_attack": {
+      "passed": true,
+      "error": null
+    },
+    "key_derivation": {
+      "passed": true,
+      "error": null
+    },
+    "wrong_key": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "summary": {
+    "tests_passed": 5,
+    "tests_total": 5,
+    "all_passed": true
+  }
+}
