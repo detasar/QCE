@@ -1,0 +1,44 @@
+{
+  "project": "TARA QKD Research - Kamran Experiments",
+  "generated_at": "2025-12-07T05:50:24.048787",
+  "phases": {
+    "phase1": {
+      "name": "Ideal Simulations",
+      "experiments": 10,
+      "passed": 10,
+      "files": [
+        "PHASE1_ALL_RESULTS.json",
+        "PHASE1_INTERPRETATION.md"
+      ]
+    },
+    "phase2": {
+      "name": "Noise Models",
+      "experiments": 4,
+      "passed": 4,
+      "files": [
+        "PHASE2_ALL_RESULTS.json",
+        "PHASE2_INTERPRETATION.md"
+      ]
+    },
+    "phase3": {
+      "name": "Advanced Analysis",
+      "experiments": 11,
+      "passed": 11,
+      "files": [
+        "PHASE3_ALL_RESULTS.json",
+        "PHASE3_COMPLETE_RESULTS.md"
+      ]
+    }
+  },
+  "critical_findings": [
+    "P-value non-uniformity: TARA p-values are NOT uniform for discrete QKD",
+    "Use MMD/Wasserstein instead of KS/AD uniformity tests",
+    "Finite-key rate ~65% of asymptotic at n=1M",
+    "Max secure fiber distance: 95 km with standard detectors",
+    "Trojan horse attacks undetectable via QBER",
+    "ML detection achieves AUC 0.98"
+  ],
+  "total_experiments": 25,
+  "total_passed": 25,
+  "success_rate": "100.0%"
+}

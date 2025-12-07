@@ -1,0 +1,2150 @@
+{
+  "phase": "Phase 2: Noise Models",
+  "consolidated_at": "2025-12-07T05:49:49.869068",
+  "experiments": {
+    "exp_2_1_depol_sweep": {
+      "experiment": "exp_2_1_depol_sweep",
+      "timestamp": "2025-12-07T03:13:21.715399",
+      "tests": {
+        "depolarizing_sweep": {
+          "type": "depolarizing_sweep",
+          "n_pairs": 10000,
+          "results": [
+            {
+              "noise_level": 0.0,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4441,
+                "sifting_rate": 0.49377362686235265,
+                "chsh_value": 2.763309396392,
+                "chsh_std": 0.09113210841742594,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.004288860203798327,
+                "key_rate_theoretical": 1.0
+              },
+              "S_theory": 2.8284271247461903,
+              "S_measured": 2.763309396392,
+              "S_error": 0.02302259364735569
+            },
+            {
+              "noise_level": 0.005,
+              "result": {
+                "p_single": 0.005,
+                "p_two": 0.01,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4414,
+                "sifting_rate": 0.49066251667407734,
+                "chsh_value": 2.70114586369222,
+                "chsh_std": 0.09307743840914436,
+                "chsh_violation": true,
+                "qber": 0.0045351473922902496,
+                "qber_ci": 0.0075691846916778075,
+                "key_rate_theoretical": 0.9163351155335859
+              },
+              "S_theory": 2.758350371392403,
+              "S_measured": 2.70114586369222,
+              "S_error": 0.02073866623089897
+            },
+            {
+              "noise_level": 0.01,
+              "result": {
+                "p_single": 0.01,
+                "p_two": 0.02,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4538,
+                "sifting_rate": 0.5029369389338357,
+                "chsh_value": 2.6825522223223945,
+                "chsh_std": 0.0949486939698166,
+                "chsh_violation": true,
+                "qber": 0.019867549668874173,
+                "qber_ci": 0.01341796241314254,
+                "key_rate_theoretical": 0.7186075493663725
+              },
+              "S_theory": 2.6895316104998215,
+              "S_measured": 2.6825522223223945,
+              "S_error": 0.0025950199470345285
+            },
+            {
+              "noise_level": 0.02,
+              "result": {
+                "p_single": 0.02,
+                "p_two": 0.04,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4574,
+                "sifting_rate": 0.5093541202672606,
+                "chsh_value": 2.4023875041056897,
+                "chsh_std": 0.10001772150675861,
+                "chsh_violation": true,
+                "qber": 0.0437636761487965,
+                "qber_ci": 0.019060463271695326,
+                "key_rate_theoretical": 0.4814199028795224
+              },
+              "S_theory": 2.555609263098351,
+              "S_measured": 2.4023875041056897,
+              "S_error": 0.059955080459717675
+            },
+            {
+              "noise_level": 0.03,
+              "result": {
+                "p_single": 0.03,
+                "p_two": 0.06,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4496,
+                "sifting_rate": 0.5005009462317711,
+                "chsh_value": 2.4527226602835555,
+                "chsh_std": 0.09926765549290396,
+                "chsh_violation": true,
+                "qber": 0.07349665924276169,
+                "qber_ci": 0.024305141589405006,
+                "key_rate_theoretical": 0.24232189170043783
+              },
+              "S_theory": 2.4265433250700705,
+              "S_measured": 2.4527226602835555,
+              "S_error": 0.010788735953325272
+            },
+            {
+              "noise_level": 0.05,
+              "result": {
+                "p_single": 0.05,
+                "p_two": 0.1,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4440,
+                "sifting_rate": 0.49338815423935994,
+                "chsh_value": 2.3727796328312927,
+                "chsh_std": 0.10169252438298358,
+                "chsh_violation": true,
+                "qber": 0.09684684684684684,
+                "qber_ci": 0.027608526920726024,
+                "key_rate_theoretical": 0.08216021982507293
+              },
+              "S_theory": 2.182520435471338,
+              "S_measured": 2.3727796328312927,
+              "S_error": 0.08717407373043283
+            },
+            {
+              "noise_level": 0.07,
+              "result": {
+                "p_single": 0.07,
+                "p_two": 0.14,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4611,
+                "sifting_rate": 0.5134743875278397,
+                "chsh_value": 2.001548991221769,
+                "chsh_std": 0.10835492083962985,
+                "chsh_violation": true,
+                "qber": 0.14967462039045554,
+                "qber_ci": 0.03256011231398356,
+                "key_rate_theoretical": 0.0
+              },
+              "S_theory": 1.956556034830345,
+              "S_measured": 2.001548991221769,
+              "S_error": 0.02299599683856005
+            },
+            {
+              "noise_level": 0.1,
+              "result": {
+                "p_single": 0.1,
+                "p_two": 0.2,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4502,
+                "sifting_rate": 0.5006115867897254,
+                "chsh_value": 1.7085020305395098,
+                "chsh_std": 0.11396020873614325,
+                "chsh_violation": false,
+                "qber": 0.14888888888888888,
+                "qber_ci": 0.03288524187580115,
+                "key_rate_theoretical": 0.0
+              },
+              "S_theory": 1.6495386991519783,
+              "S_measured": 1.7085020305395098,
+              "S_error": 0.03574534590661277
+            },
+            {
+              "noise_level": 0.15,
+              "result": {
+                "p_single": 0.15,
+                "p_two": 0.3,
+                "p_readout": 0.0,
+                "n_pairs": 10000,
+                "n_sifted": 4462,
+                "sifting_rate": 0.49374792519641475,
+                "chsh_value": 1.4767952959707176,
+                "chsh_std": 0.11975093065998445,
+                "chsh_violation": false,
+                "qber": 0.23766816143497757,
+                "qber_ci": 0.03939844462675442,
+                "key_rate_theoretical": 0.0
+              },
+              "S_theory": 1.2159054655893275,
+              "S_measured": 1.4767952959707176,
+              "S_error": 0.21456423855693535
+            }
+          ]
+        },
+        "readout_error": {
+          "type": "readout_error_test",
+          "n_pairs": 8000,
+          "results": [
+            {
+              "p_readout": 0.0,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3611,
+                "sifting_rate": 0.5008321775312067,
+                "chsh_value": 2.8083080575449273,
+                "chsh_std": 0.10116585926297593,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005264559067808763,
+                "key_rate_theoretical": 1.0
+              }
+            },
+            {
+              "p_readout": 0.01,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.01,
+                "n_pairs": 8000,
+                "n_sifted": 3526,
+                "sifting_rate": 0.49033514114865806,
+                "chsh_value": 2.674683631890211,
+                "chsh_std": 0.10449722720461481,
+                "chsh_violation": true,
+                "qber": 0.019886363636363636,
+                "qber_ci": 0.01540377387691588,
+                "key_rate_theoretical": 0.718395937606153
+              }
+            },
+            {
+              "p_readout": 0.02,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.02,
+                "n_pairs": 8000,
+                "n_sifted": 3573,
+                "sifting_rate": 0.499510694813365,
+                "chsh_value": 2.5404327745812076,
+                "chsh_std": 0.10588521934673215,
+                "chsh_violation": true,
+                "qber": 0.047619047619047616,
+                "qber_ci": 0.022494397749750768,
+                "key_rate_theoretical": 0.44760914470412183
+              }
+            },
+            {
+              "p_readout": 0.05,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.05,
+                "n_pairs": 8000,
+                "n_sifted": 3616,
+                "sifting_rate": 0.498827424472341,
+                "chsh_value": 2.3316698416105464,
+                "chsh_std": 0.11833032976678666,
+                "chsh_violation": true,
+                "qber": 0.09695290858725762,
+                "qber_ci": 0.030657227067817212,
+                "key_rate_theoretical": 0.08147711449383044
+              }
+            },
+            {
+              "p_readout": 0.1,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.1,
+                "n_pairs": 8000,
+                "n_sifted": 3609,
+                "sifting_rate": 0.5013196277260731,
+                "chsh_value": 1.6773148148148147,
+                "chsh_std": 0.12828027098927625,
+                "chsh_violation": false,
+                "qber": 0.16944444444444445,
+                "qber_ci": 0.03870461924429248,
+                "key_rate_theoretical": 0.0
+              }
+            },
+            {
+              "p_readout": 0.15,
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.15,
+                "n_pairs": 8000,
+                "n_sifted": 3625,
+                "sifting_rate": 0.5029134295227525,
+                "chsh_value": 1.3580194835259711,
+                "chsh_std": 0.1338137153467282,
+                "chsh_violation": false,
+                "qber": 0.2513812154696133,
+                "qber_ci": 0.04452931634039524,
+                "key_rate_theoretical": 0.0
+              }
+            }
+          ]
+        },
+        "combined_noise": {
+          "type": "combined_noise_test",
+          "n_pairs": 8000,
+          "results": [
+            {
+              "name": "Ideal",
+              "config": {
+                "name": "Ideal",
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.0
+              },
+              "result": {
+                "p_single": 0.0,
+                "p_two": 0.0,
+                "p_readout": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3643,
+                "sifting_rate": 0.505480782572499,
+                "chsh_value": 2.757776636067712,
+                "chsh_std": 0.10297547769460805,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005221622969050181,
+                "key_rate_theoretical": 1.0
+              },
+              "secure": true
+            },
+            {
+              "name": "Excellent",
+              "config": {
+                "name": "Excellent",
+                "p_single": 0.001,
+                "p_two": 0.005,
+                "p_readout": 0.01
+              },
+              "result": {
+                "p_single": 0.001,
+                "p_two": 0.005,
+                "p_readout": 0.01,
+                "n_pairs": 8000,
+                "n_sifted": 3520,
+                "sifting_rate": 0.49237655616170095,
+                "chsh_value": 2.683719813694632,
+                "chsh_std": 0.10133631321852304,
+                "chsh_violation": true,
+                "qber": 0.008522727272727272,
+                "qber_ci": 0.01092578586480897,
+                "key_rate_theoretical": 0.8583352482329741
+              },
+              "secure": true
+            },
+            {
+              "name": "Good (IonQ-like)",
+              "config": {
+                "name": "Good (IonQ-like)",
+                "p_single": 0.002,
+                "p_two": 0.01,
+                "p_readout": 0.01
+              },
+              "result": {
+                "p_single": 0.002,
+                "p_two": 0.01,
+                "p_readout": 0.01,
+                "n_pairs": 8000,
+                "n_sifted": 3596,
+                "sifting_rate": 0.49778516057585825,
+                "chsh_value": 2.6724913700436757,
+                "chsh_std": 0.10658697415117069,
+                "chsh_violation": true,
+                "qber": 0.025069637883008356,
+                "qber_ci": 0.016853624732406997,
+                "key_rate_theoretical": 0.6619422953304762
+              },
+              "secure": true
+            },
+            {
+              "name": "Moderate (IBM-like)",
+              "config": {
+                "name": "Moderate (IBM-like)",
+                "p_single": 0.005,
+                "p_two": 0.02,
+                "p_readout": 0.03
+              },
+              "result": {
+                "p_single": 0.005,
+                "p_two": 0.02,
+                "p_readout": 0.03,
+                "n_pairs": 8000,
+                "n_sifted": 3522,
+                "sifting_rate": 0.48828504089837793,
+                "chsh_value": 2.5496693750719848,
+                "chsh_std": 0.10991840068798636,
+                "chsh_violation": true,
+                "qber": 0.06818181818181818,
+                "qber_ci": 0.026600700370152646,
+                "key_rate_theoretical": 0.28179674870290117
+              },
+              "secure": true
+            },
+            {
+              "name": "Noisy",
+              "config": {
+                "name": "Noisy",
+                "p_single": 0.01,
+                "p_two": 0.04,
+                "p_readout": 0.05
+              },
+              "result": {
+                "p_single": 0.01,
+                "p_two": 0.04,
+                "p_readout": 0.05,
+                "n_pairs": 8000,
+                "n_sifted": 3594,
+                "sifting_rate": 0.5016050244242847,
+                "chsh_value": 2.163584190772376,
+                "chsh_std": 0.11630544173222301,
+                "chsh_violation": true,
+                "qber": 0.11142061281337047,
+                "qber_ci": 0.032636131872095395,
+                "key_rate_theoretical": 0.0
+              },
+              "secure": false
+            },
+            {
+              "name": "Very Noisy",
+              "config": {
+                "name": "Very Noisy",
+                "p_single": 0.02,
+                "p_two": 0.08,
+                "p_readout": 0.1
+              },
+              "result": {
+                "p_single": 0.02,
+                "p_two": 0.08,
+                "p_readout": 0.1,
+                "n_pairs": 8000,
+                "n_sifted": 3591,
+                "sifting_rate": 0.4971618441090959,
+                "chsh_value": 1.541819150739741,
+                "chsh_std": 0.1322940093599972,
+                "chsh_violation": false,
+                "qber": 0.21727019498607242,
+                "qber_ci": 0.042537657605491414,
+                "key_rate_theoretical": 0.0
+              },
+              "secure": false
+            }
+          ]
+        },
+        "threshold_search": {
+          "type": "threshold_search",
+          "n_pairs": 5000,
+          "results": [
+            {
+              "p_single": 0.0,
+              "chsh": 2.5883297600565154,
+              "qber": 0.0,
+              "violation": true
+            },
+            {
+              "p_single": 0.01,
+              "chsh": 2.601353515021149,
+              "qber": 0.02654867256637168,
+              "violation": true
+            },
+            {
+              "p_single": 0.02,
+              "chsh": 2.690458429353118,
+              "qber": 0.03587443946188341,
+              "violation": true
+            },
+            {
+              "p_single": 0.03,
+              "chsh": 2.408121212121212,
+              "qber": 0.0684931506849315,
+              "violation": true
+            },
+            {
+              "p_single": 0.04,
+              "chsh": 2.490620308070631,
+              "qber": 0.07657657657657657,
+              "violation": true
+            },
+            {
+              "p_single": 0.05,
+              "chsh": 2.137920554770119,
+              "qber": 0.09009009009009009,
+              "violation": true
+            },
+            {
+              "p_single": 0.06,
+              "chsh": 2.159583877047992,
+              "qber": 0.14479638009049775,
+              "violation": true
+            },
+            {
+              "p_single": 0.07,
+              "chsh": 1.9615438336368571,
+              "qber": 0.13063063063063063,
+              "violation": false
+            },
+            {
+              "p_single": 0.08,
+              "chsh": 2.3322780221960926,
+              "qber": 0.11946902654867257,
+              "violation": true
+            },
+            {
+              "p_single": 0.09,
+              "chsh": 1.627713505420001,
+              "qber": 0.15859030837004406,
+              "violation": false
+            },
+            {
+              "p_single": 0.1,
+              "chsh": 2.050974100291578,
+              "qber": 0.16371681415929204,
+              "violation": true
+            },
+            {
+              "p_single": 0.11,
+              "chsh": 1.6031852149869477,
+              "qber": 0.18502202643171806,
+              "violation": false
+            },
+            {
+              "p_single": 0.12,
+              "chsh": 1.8338643679552769,
+              "qber": 0.23478260869565218,
+              "violation": false
+            },
+            {
+              "p_single": 0.13,
+              "chsh": 1.5008447956448392,
+              "qber": 0.20089285714285715,
+              "violation": false
+            },
+            {
+              "p_single": 0.14,
+              "chsh": 1.6969024832409723,
+              "qber": 0.23478260869565218,
+              "violation": false
+            },
+            {
+              "p_single": 0.15,
+              "chsh": 1.5609237879390476,
+              "qber": 0.23376623376623376,
+              "violation": false
+            }
+          ],
+          "chsh_threshold": 0.07,
+          "qber_threshold": 0.06
+        }
+      },
+      "validation": {
+        "checks": [
+          {
+            "name": "CHSH decreases with noise",
+            "passed": true,
+            "detail": "Values: ['2.76', '2.70', '2.68', '2.40', '2.45', '2.37', '2.00', '1.71', '1.48']"
+          },
+          {
+            "name": "Theory-experiment agreement",
+            "passed": "False",
+            "detail": "Mean error: 5.3%, Max: 21.5%"
+          },
+          {
+            "name": "CHSH threshold in expected range",
+            "passed": "True",
+            "detail": "Found: p=0.0700"
+          },
+          {
+            "name": "Ideal case near Tsirelson bound",
+            "passed": "True",
+            "detail": "S=2.763 vs 2.828"
+          }
+        ],
+        "all_passed": false
+      },
+      "summary": {
+        "overall_passed": false,
+        "chsh_threshold": 0.07,
+        "qber_threshold": 0.06,
+        "secure_configs": 4
+      }
+    },
+    "exp_2_2_t1t2_decay": {
+      "experiment": "exp_2_2_t1t2_decay",
+      "timestamp": "2025-12-07T03:19:10.324491",
+      "tests": {
+        "t2_sweep": {
+          "type": "t2_sweep",
+          "T1_fixed": 200.0,
+          "results": [
+            {
+              "T1_us": 200.0,
+              "T2_us": 0.5,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 0.5,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3515,
+                "sifting_rate": 0.489349853821523,
+                "chsh_value": 1.7528379110692793,
+                "chsh_std": 0.11872923497886224,
+                "chsh_violation": false,
+                "qber": 0.18233618233618235,
+                "qber_ci": 0.04032181333115687,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 1.3513513513513513,
+                "coherence_factor": 0.4771139155210344
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 1.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 1.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3611,
+                "sifting_rate": 0.5008321775312067,
+                "chsh_value": 2.2680771332234717,
+                "chsh_std": 0.11496448046297811,
+                "chsh_violation": true,
+                "qber": 0.12465373961218837,
+                "qber_ci": 0.03412485150116645,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 2.7027027027027026,
+                "coherence_factor": 0.6907343306373547
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 2.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 2.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3546,
+                "sifting_rate": 0.49215822345593335,
+                "chsh_value": 2.4071414625885046,
+                "chsh_std": 0.11314113639002209,
+                "chsh_violation": true,
+                "qber": 0.059322033898305086,
+                "qber_ci": 0.024928476184735746,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 5.405405405405405,
+                "coherence_factor": 0.8311042838521256
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 5.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 5.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3485,
+                "sifting_rate": 0.48456618464961065,
+                "chsh_value": 2.595100428523704,
+                "chsh_std": 0.10679271835760787,
+                "chsh_violation": true,
+                "qber": 0.022988505747126436,
+                "qber_ci": 0.016502915826857995,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 13.513513513513514,
+                "coherence_factor": 0.9286716938412872
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 10.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 10.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3635,
+                "sifting_rate": 0.5030445613063936,
+                "chsh_value": 2.6032509189844713,
+                "chsh_std": 0.10877804877895926,
+                "chsh_violation": true,
+                "qber": 0.024793388429752067,
+                "qber_ci": 0.016671983210890664,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 27.027027027027028,
+                "coherence_factor": 0.9636761353490535
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 20.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 20.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3654,
+                "sifting_rate": 0.5104064813521442,
+                "chsh_value": 2.7586602829291973,
+                "chsh_std": 0.09972929181495246,
+                "chsh_violation": true,
+                "qber": 0.0027397260273972603,
+                "qber_ci": 0.0074348653731694326,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 54.054054054054056,
+                "coherence_factor": 0.9816700745917915
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 50.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 50.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3524,
+                "sifting_rate": 0.4919039642657733,
+                "chsh_value": 2.9450938789256544,
+                "chsh_std": 0.09349728773994113,
+                "chsh_violation": true,
+                "qber": 0.002840909090909091,
+                "qber_ci": 0.007706285065134081,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 135.13513513513513,
+                "coherence_factor": 0.9926273125874261
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3635,
+                "sifting_rate": 0.5045807884508606,
+                "chsh_value": 2.855230819347053,
+                "chsh_std": 0.09948050621528802,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005235856973532216,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 200.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 200.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3640,
+                "sifting_rate": 0.5055555555555555,
+                "chsh_value": 2.8241076053094196,
+                "chsh_std": 0.09998199762476069,
+                "chsh_violation": true,
+                "qber": 0.0027472527472527475,
+                "qber_ci": 0.007455063187711131,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 540.5405405405405,
+                "coherence_factor": 0.9981517101952171
+              }
+            }
+          ]
+        },
+        "t1_sweep": {
+          "type": "t1_sweep",
+          "T2_fixed": 100.0,
+          "results": [
+            {
+              "T1_us": 50.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 50.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3616,
+                "sifting_rate": 0.498827424472341,
+                "chsh_value": 2.9918818123212962,
+                "chsh_std": 0.09637646403843289,
+                "chsh_violation": true,
+                "qber": 0.008310249307479225,
+                "qber_ci": 0.010657128975455543,
+                "t1_gate_ratio": 135.13513513513513,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 75.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 75.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3501,
+                "sifting_rate": 0.4863175441033477,
+                "chsh_value": 2.829206236585077,
+                "chsh_std": 0.09992483301947741,
+                "chsh_violation": true,
+                "qber": 0.005714285714285714,
+                "qber_ci": 0.009512004731220877,
+                "t1_gate_ratio": 202.7027027027027,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 100.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 100.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3609,
+                "sifting_rate": 0.5013196277260731,
+                "chsh_value": 2.767361111111111,
+                "chsh_std": 0.10223841927593531,
+                "chsh_violation": true,
+                "qber": 0.002777777777777778,
+                "qber_ci": 0.007536963894235102,
+                "t1_gate_ratio": 270.27027027027026,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 200.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 200.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3590,
+                "sifting_rate": 0.49874965268130034,
+                "chsh_value": 2.914616708954148,
+                "chsh_std": 0.09661970767362803,
+                "chsh_violation": true,
+                "qber": 0.002785515320334262,
+                "qber_ci": 0.007557721016080887,
+                "t1_gate_ratio": 540.5405405405405,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 500.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 500.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3630,
+                "sifting_rate": 0.5046573057138884,
+                "chsh_value": 2.992245547862231,
+                "chsh_std": 0.09340460365757808,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005235856973532216,
+                "t1_gate_ratio": 1351.3513513513512,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            },
+            {
+              "T1_us": 1000.0,
+              "T2_us": 100.0,
+              "result": {
+                "T1_us": 1000.0,
+                "T2_us": 100.0,
+                "gate_time_1q_ns": 35.0,
+                "gate_time_2q_ns": 300.0,
+                "n_pairs": 8000,
+                "n_sifted": 3582,
+                "sifting_rate": 0.4951617362455073,
+                "chsh_value": 2.859585539596609,
+                "chsh_std": 0.1011774903586317,
+                "chsh_violation": true,
+                "qber": 0.002793296089385475,
+                "qber_ci": 0.007578592784701427,
+                "t1_gate_ratio": 2702.7027027027025,
+                "t2_gate_ratio": 270.27027027027026,
+                "coherence_factor": 0.9963068365656366
+              }
+            }
+          ]
+        },
+        "hardware_comparison": {
+          "type": "hardware_comparison",
+          "results": [
+            {
+              "name": "Ideal (infinite T1/T2)",
+              "config": {
+                "name": "Ideal (infinite T1/T2)",
+                "T1_us": 1000000.0,
+                "T2_us": 1000000.0,
+                "gate_1q_ns": 35,
+                "gate_2q_ns": 300
+              },
+              "result": {
+                "T1_us": 1000000.0,
+                "T2_us": 1000000.0,
+                "gate_time_1q_ns": 35,
+                "gate_time_2q_ns": 300,
+                "n_pairs": 8000,
+                "n_sifted": 3643,
+                "sifting_rate": 0.5051303383250139,
+                "chsh_value": 2.819297451369487,
+                "chsh_std": 0.1008966458560388,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005221622969050181,
+                "t1_gate_ratio": 2702702.7027027025,
+                "t2_gate_ratio": 2702702.7027027025,
+                "coherence_factor": 0.9999996300000684
+              },
+              "secure": true
+            },
+            {
+              "name": "Trapped Ion (IonQ-like)",
+              "config": {
+                "name": "Trapped Ion (IonQ-like)",
+                "T1_us": 10000,
+                "T2_us": 1000,
+                "gate_1q_ns": 10000,
+                "gate_2q_ns": 200000
+              },
+              "result": {
+                "T1_us": 10000,
+                "T2_us": 1000,
+                "gate_time_1q_ns": 10000,
+                "gate_time_2q_ns": 200000,
+                "n_pairs": 8000,
+                "n_sifted": 3629,
+                "sifting_rate": 0.5038878089419606,
+                "chsh_value": 2.4023150127014246,
+                "chsh_std": 0.11206100422746422,
+                "chsh_violation": true,
+                "qber": 0.10497237569060773,
+                "qber_ci": 0.031681940191128515,
+                "t1_gate_ratio": 45.45454545454545,
+                "t2_gate_ratio": 4.545454545454546,
+                "coherence_factor": 0.8025187979624785
+              },
+              "secure": true
+            },
+            {
+              "name": "Superconducting Excellent",
+              "config": {
+                "name": "Superconducting Excellent",
+                "T1_us": 300,
+                "T2_us": 200,
+                "gate_1q_ns": 35,
+                "gate_2q_ns": 300
+              },
+              "result": {
+                "T1_us": 300,
+                "T2_us": 200,
+                "gate_time_1q_ns": 35,
+                "gate_time_2q_ns": 300,
+                "n_pairs": 8000,
+                "n_sifted": 3635,
+                "sifting_rate": 0.5046508399278079,
+                "chsh_value": 2.832912257837386,
+                "chsh_std": 0.10029884982152007,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.005235856973532216,
+                "t1_gate_ratio": 810.8108108108108,
+                "t2_gate_ratio": 540.5405405405405,
+                "coherence_factor": 0.9981517101952171
+              },
+              "secure": true
+            },
+            {
+              "name": "Superconducting Good (IBM-like)",
+              "config": {
+                "name": "Superconducting Good (IBM-like)",
+                "T1_us": 150,
+                "T2_us": 80,
+                "gate_1q_ns": 35,
+                "gate_2q_ns": 400
+              },
+              "result": {
+                "T1_us": 150,
+                "T2_us": 80,
+                "gate_time_1q_ns": 35,
+                "gate_time_2q_ns": 400,
+                "n_pairs": 8000,
+                "n_sifted": 3588,
+                "sifting_rate": 0.49972144846796657,
+                "chsh_value": 2.8239161654038134,
+                "chsh_std": 0.09700705519931554,
+                "chsh_violation": true,
+                "qber": 0.0111731843575419,
+                "qber_ci": 0.012009397292031914,
+                "t1_gate_ratio": 319.1489361702128,
+                "t2_gate_ratio": 170.2127659574468,
+                "coherence_factor": 0.994142224065531
+              },
+              "secure": true
+            },
+            {
+              "name": "Superconducting Moderate",
+              "config": {
+                "name": "Superconducting Moderate",
+                "T1_us": 80,
+                "T2_us": 40,
+                "gate_1q_ns": 35,
+                "gate_2q_ns": 500
+              },
+              "result": {
+                "T1_us": 80,
+                "T2_us": 40,
+                "gate_time_1q_ns": 35,
+                "gate_time_2q_ns": 500,
+                "n_pairs": 8000,
+                "n_sifted": 3532,
+                "sifting_rate": 0.4912378303198887,
+                "chsh_value": 2.928643654671052,
+                "chsh_std": 0.09581395628307852,
+                "chsh_violation": true,
+                "qber": 0.014164305949008499,
+                "qber_ci": 0.01332949173787412,
+                "t1_gate_ratio": 140.35087719298247,
+                "t2_gate_ratio": 70.17543859649123,
+                "coherence_factor": 0.9858510506897766
+              },
+              "secure": true
+            },
+            {
+              "name": "Superconducting Noisy",
+              "config": {
+                "name": "Superconducting Noisy",
+                "T1_us": 30,
+                "T2_us": 15,
+                "gate_1q_ns": 35,
+                "gate_2q_ns": 600
+              },
+              "result": {
+                "T1_us": 30,
+                "T2_us": 15,
+                "gate_time_1q_ns": 35,
+                "gate_time_2q_ns": 600,
+                "n_pairs": 8000,
+                "n_sifted": 3578,
+                "sifting_rate": 0.4974972191323693,
+                "chsh_value": 2.848081846903869,
+                "chsh_std": 0.09816946626629937,
+                "chsh_violation": true,
+                "qber": 0.0196078431372549,
+                "qber_ci": 0.015192224660350993,
+                "t1_gate_ratio": 44.776119402985074,
+                "t2_gate_ratio": 22.388059701492537,
+                "coherence_factor": 0.9563162007772505
+              },
+              "secure": true
+            }
+          ],
+          "n_secure": 6
+        },
+        "t2_threshold_search": {
+          "type": "t2_threshold_search",
+          "T1_fixed": 200.0,
+          "results": [
+            {
+              "T2_us": 0.1,
+              "chsh": 1.4381874121562561,
+              "qber": 0.2590909090909091,
+              "violation": false
+            },
+            {
+              "T2_us": 0.2,
+              "chsh": 1.3892476701565162,
+              "qber": 0.26046511627906976,
+              "violation": false
+            },
+            {
+              "T2_us": 0.5,
+              "chsh": 1.9986515190978331,
+              "qber": 0.15555555555555556,
+              "violation": false
+            },
+            {
+              "T2_us": 1.0,
+              "chsh": 2.0612706306448536,
+              "qber": 0.13274336283185842,
+              "violation": true
+            },
+            {
+              "T2_us": 2.0,
+              "chsh": 2.6191835307618354,
+              "qber": 0.1031390134529148,
+              "violation": true
+            },
+            {
+              "T2_us": 5.0,
+              "chsh": 2.519844960143376,
+              "qber": 0.02252252252252252,
+              "violation": true
+            },
+            {
+              "T2_us": 10.0,
+              "chsh": 2.958349768411442,
+              "qber": 0.008849557522123894,
+              "violation": true
+            },
+            {
+              "T2_us": 20.0,
+              "chsh": 2.6402517059451363,
+              "qber": 0.013636363636363636,
+              "violation": true
+            },
+            {
+              "T2_us": 50.0,
+              "chsh": 2.7040351710600614,
+              "qber": 0.0,
+              "violation": true
+            },
+            {
+              "T2_us": 100.0,
+              "chsh": 2.722755417956656,
+              "qber": 0.004424778761061947,
+              "violation": true
+            }
+          ],
+          "threshold_t2": 1.0
+        }
+      },
+      "validation": {
+        "checks": [
+          {
+            "name": "CHSH increases with T2",
+            "passed": true,
+            "detail": "Increasing pairs: 8/8"
+          },
+          {
+            "name": "Ideal hardware gives best CHSH",
+            "passed": true,
+            "detail": "Ideal: 2.819, Others max: 2.929"
+          },
+          {
+            "name": "Low T2 gives degraded CHSH",
+            "passed": "True",
+            "detail": "Mean CHSH at T2<=1\u03bcs: 1.722"
+          }
+        ],
+        "all_passed": true
+      },
+      "summary": {
+        "overall_passed": true,
+        "t2_threshold": 1.0,
+        "n_secure_configs": 6
+      }
+    },
+    "exp_2_3_readout_error": {
+      "experiment": "exp_2_3_readout_error",
+      "timestamp": "2025-12-07T03:24:57.925842",
+      "tests": {
+        "symmetric_sweep": {
+          "type": "symmetric_sweep",
+          "results": [
+            {
+              "p_symmetric": 0.0,
+              "result": {
+                "p01": 0.0,
+                "p10": 0.0,
+                "asymmetry": 0,
+                "n_pairs": 8000,
+                "n_sifted": 3515,
+                "sifting_rate": 0.489349853821523,
+                "chsh_value": 2.732696484086918,
+                "chsh_std": 0.10254616694648566,
+                "chsh_violation": true,
+                "qber": 0.0,
+                "qber_ci": 0.0054129227648047505,
+                "qber_theory": 0.0,
+                "chsh_theory": 2.8284271247461903
+              }
+            },
+            {
+              "p_symmetric": 0.01,
+              "result": {
+                "p01": 0.01,
+                "p10": 0.01,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3635,
+                "sifting_rate": 0.5030445613063936,
+                "chsh_value": 2.5667068359619902,
+                "chsh_std": 0.11039843539330067,
+                "chsh_violation": true,
+                "qber": 0.008264462809917356,
+                "qber_ci": 0.01059921184736062,
+                "qber_theory": 0.0198,
+                "chsh_theory": 2.7718585822512662
+              }
+            },
+            {
+              "p_symmetric": 0.02,
+              "result": {
+                "p01": 0.02,
+                "p10": 0.02,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3654,
+                "sifting_rate": 0.5104064813521442,
+                "chsh_value": 2.6071846538097,
+                "chsh_std": 0.10587016502548584,
+                "chsh_violation": true,
+                "qber": 0.0410958904109589,
+                "qber_ci": 0.02081500945883811,
+                "qber_theory": 0.0392,
+                "chsh_theory": 2.7152900397563426
+              }
+            },
+            {
+              "p_symmetric": 0.03,
+              "result": {
+                "p01": 0.03,
+                "p10": 0.03,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3613,
+                "sifting_rate": 0.5009011507001248,
+                "chsh_value": 2.3730214751826777,
+                "chsh_std": 0.11475201870500347,
+                "chsh_violation": true,
+                "qber": 0.06925207756232687,
+                "qber_ci": 0.02644309071762602,
+                "qber_theory": 0.058199999999999995,
+                "chsh_theory": 2.6587214972614186
+              }
+            },
+            {
+              "p_symmetric": 0.05,
+              "result": {
+                "p01": 0.05,
+                "p10": 0.05,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3524,
+                "sifting_rate": 0.4919039642657733,
+                "chsh_value": 2.318482781847268,
+                "chsh_std": 0.11236955019428903,
+                "chsh_violation": true,
+                "qber": 0.07954545454545454,
+                "qber_ci": 0.028478436432903043,
+                "qber_theory": 0.095,
+                "chsh_theory": 2.545584412271571
+              }
+            },
+            {
+              "p_symmetric": 0.07,
+              "result": {
+                "p01": 0.07,
+                "p10": 0.07,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3674,
+                "sifting_rate": 0.5109164233069114,
+                "chsh_value": 2.0529451350022465,
+                "chsh_std": 0.12135484409615951,
+                "chsh_violation": true,
+                "qber": 0.11171662125340599,
+                "qber_ci": 0.0323131548110477,
+                "qber_theory": 0.1302,
+                "chsh_theory": 2.4324473272817233
+              }
+            },
+            {
+              "p_symmetric": 0.1,
+              "result": {
+                "p01": 0.1,
+                "p10": 0.1,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3635,
+                "sifting_rate": 0.5045807884508606,
+                "chsh_value": 1.6060477486275588,
+                "chsh_std": 0.1299032694776913,
+                "chsh_violation": false,
+                "qber": 0.18732782369146006,
+                "qber_ci": 0.0400611217100198,
+                "qber_theory": 0.18000000000000002,
+                "chsh_theory": 2.2627416997969525
+              }
+            },
+            {
+              "p_symmetric": 0.15,
+              "result": {
+                "p01": 0.15,
+                "p10": 0.15,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3565,
+                "sifting_rate": 0.49417798724701967,
+                "chsh_value": 1.3204839377090085,
+                "chsh_std": 0.13441577291597645,
+                "chsh_violation": false,
+                "qber": 0.28370786516853935,
+                "qber_ci": 0.046634386676036546,
+                "qber_theory": 0.255,
+                "chsh_theory": 1.9798989873223332
+              }
+            }
+          ]
+        },
+        "asymmetric_test": {
+          "type": "asymmetric_test",
+          "results": [
+            {
+              "name": "Symmetric 5%",
+              "config": {
+                "name": "Symmetric 5%",
+                "p01": 0.05,
+                "p10": 0.05
+              },
+              "result": {
+                "p01": 0.05,
+                "p10": 0.05,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3573,
+                "sifting_rate": 0.499510694813365,
+                "chsh_value": 2.207986571830762,
+                "chsh_std": 0.11417968398862327,
+                "chsh_violation": true,
+                "qber": 0.11484593837535013,
+                "qber_ci": 0.033151608123481224,
+                "qber_theory": 0.095,
+                "chsh_theory": 2.545584412271571
+              },
+              "secure": false
+            },
+            {
+              "name": "Asymmetric (high p10)",
+              "config": {
+                "name": "Asymmetric (high p10)",
+                "p01": 0.02,
+                "p10": 0.08
+              },
+              "result": {
+                "p01": 0.02,
+                "p10": 0.08,
+                "asymmetry": 0.6,
+                "n_pairs": 8000,
+                "n_sifted": 3582,
+                "sifting_rate": 0.49791492910758967,
+                "chsh_value": 2.183396178010603,
+                "chsh_std": 0.11778375609976843,
+                "chsh_violation": true,
+                "qber": 0.08379888268156424,
+                "qber_ci": 0.028889725017458224,
+                "qber_theory": 0.0968,
+                "chsh_theory": 2.5455844122715714
+              },
+              "secure": true
+            },
+            {
+              "name": "Asymmetric (high p01)",
+              "config": {
+                "name": "Asymmetric (high p01)",
+                "p01": 0.08,
+                "p10": 0.02
+              },
+              "result": {
+                "p01": 0.08,
+                "p10": 0.02,
+                "asymmetry": 0.6,
+                "n_pairs": 8000,
+                "n_sifted": 3533,
+                "sifting_rate": 0.492404181184669,
+                "chsh_value": 2.21304799456898,
+                "chsh_std": 0.11589910545263064,
+                "chsh_violation": true,
+                "qber": 0.08781869688385269,
+                "qber_ci": 0.029699319954414,
+                "qber_theory": 0.0968,
+                "chsh_theory": 2.5455844122715714
+              },
+              "secure": true
+            },
+            {
+              "name": "Realistic IBM-like",
+              "config": {
+                "name": "Realistic IBM-like",
+                "p01": 0.01,
+                "p10": 0.03
+              },
+              "result": {
+                "p01": 0.01,
+                "p10": 0.03,
+                "asymmetry": 0.4999999999999999,
+                "n_pairs": 8000,
+                "n_sifted": 3567,
+                "sifting_rate": 0.495210329029571,
+                "chsh_value": 2.5365223832210537,
+                "chsh_std": 0.10963009379272158,
+                "chsh_violation": true,
+                "qber": 0.056179775280898875,
+                "qber_ci": 0.02425897028036292,
+                "qber_theory": 0.0394,
+                "chsh_theory": 2.7152900397563426
+              },
+              "secure": true
+            },
+            {
+              "name": "Realistic IonQ-like",
+              "config": {
+                "name": "Realistic IonQ-like",
+                "p01": 0.005,
+                "p10": 0.005
+              },
+              "result": {
+                "p01": 0.005,
+                "p10": 0.005,
+                "asymmetry": 0.0,
+                "n_pairs": 8000,
+                "n_sifted": 3513,
+                "sifting_rate": 0.4906424581005587,
+                "chsh_value": 2.7886014946639563,
+                "chsh_std": 0.09907273196752772,
+                "chsh_violation": true,
+                "qber": 0.005698005698005698,
+                "qber_ci": 0.009485250744343266,
+                "qber_theory": 0.00995,
+                "chsh_theory": 2.8001428534987283
+              },
+              "secure": true
+            },
+            {
+              "name": "High asymmetry",
+              "config": {
+                "name": "High asymmetry",
+                "p01": 0.01,
+                "p10": 0.1
+              },
+              "result": {
+                "p01": 0.01,
+                "p10": 0.1,
+                "asymmetry": 0.8181818181818182,
+                "n_pairs": 8000,
+                "n_sifted": 3556,
+                "sifting_rate": 0.49971894322653176,
+                "chsh_value": 2.419327532639681,
+                "chsh_std": 0.10763789812419335,
+                "chsh_violation": true,
+                "qber": 0.09577464788732394,
+                "qber_ci": 0.030754076464664278,
+                "qber_theory": 0.10800000000000001,
+                "chsh_theory": 2.5173001410241094
+              },
+              "secure": true
+            }
+          ]
+        },
+        "threshold_search": {
+          "type": "threshold_search",
+          "results": [
+            {
+              "p_error": 0.0,
+              "chsh": 2.9617617281848094,
+              "qber": 0.0,
+              "violation": true
+            },
+            {
+              "p_error": 0.01,
+              "chsh": 2.651868502687825,
+              "qber": 0.04054054054054054,
+              "violation": true
+            },
+            {
+              "p_error": 0.02,
+              "chsh": 2.8507770164140425,
+              "qber": 0.05333333333333334,
+              "violation": true
+            },
+            {
+              "p_error": 0.03,
+              "chsh": 2.482021065196308,
+              "qber": 0.04484304932735426,
+              "violation": true
+            },
+            {
+              "p_error": 0.04,
+              "chsh": 2.304726152746667,
+              "qber": 0.05454545454545454,
+              "violation": true
+            },
+            {
+              "p_error": 0.05,
+              "chsh": 2.5494425329463777,
+              "qber": 0.08482142857142858,
+              "violation": true
+            },
+            {
+              "p_error": 0.06,
+              "chsh": 2.161557257495923,
+              "qber": 0.12727272727272726,
+              "violation": true
+            },
+            {
+              "p_error": 0.07,
+              "chsh": 2.2910120105954497,
+              "qber": 0.13274336283185842,
+              "violation": true
+            },
+            {
+              "p_error": 0.08,
+              "chsh": 1.9344632522202614,
+              "qber": 0.18777292576419213,
+              "violation": false
+            },
+            {
+              "p_error": 0.09,
+              "chsh": 2.158194394017659,
+              "qber": 0.15283842794759825,
+              "violation": true
+            },
+            {
+              "p_error": 0.1,
+              "chsh": 1.7311584867850498,
+              "qber": 0.21333333333333335,
+              "violation": false
+            },
+            {
+              "p_error": 0.11,
+              "chsh": 1.6798366550171036,
+              "qber": 0.17333333333333334,
+              "violation": false
+            },
+            {
+              "p_error": 0.12,
+              "chsh": 1.7692557178948145,
+              "qber": 0.2073732718894009,
+              "violation": false
+            },
+            {
+              "p_error": 0.13,
+              "chsh": 1.6502906827185266,
+              "qber": 0.23660714285714285,
+              "violation": false
+            },
+            {
+              "p_error": 0.14,
+              "chsh": 1.5233639654692286,
+              "qber": 0.2648401826484018,
+              "violation": false
+            },
+            {
+              "p_error": 0.15,
+              "chsh": 1.7552531127463693,
+              "qber": 0.2600896860986547,
+              "violation": false
+            }
+          ],
+          "chsh_threshold": 0.08,
+          "qber_threshold": 0.06
+        },
+        "comparison": {
+          "type": "comparison",
+          "results": [
+            {
+              "error_level": 0.02,
+              "readout": {
+                "chsh": 2.441120589652982,
+                "qber": 0.02973977695167286,
+                "violation": true
+              },
+              "gate": {
+                "chsh": 2.5962654924983695,
+                "qber": 0.07326007326007326,
+                "violation": true
+              }
+            },
+            {
+              "error_level": 0.05,
+              "readout": {
+                "chsh": 2.298616983235523,
+                "qber": 0.10486891385767791,
+                "violation": true
+              },
+              "gate": {
+                "chsh": 2.1948049503664278,
+                "qber": 0.08178438661710037,
+                "violation": true
+              }
+            },
+            {
+              "error_level": 0.1,
+              "readout": {
+                "chsh": 1.8255527865390675,
+                "qber": 0.11439114391143912,
+                "violation": false
+              },
+              "gate": {
+                "chsh": 1.8669528243484688,
+                "qber": 0.18587360594795538,
+                "violation": false
+              }
+            }
+          ]
+        }
+      },
+      "validation": {
+        "checks": [
+          {
+            "name": "QBER matches theory",
+            "passed": "True",
+            "detail": "Mean relative error: 18.3%"
+          },
+          {
+            "name": "CHSH decreases with readout error",
+            "passed": true,
+            "detail": "Decreasing pairs: 7/7"
+          },
+          {
+            "name": "CHSH threshold in expected range",
+            "passed": "True",
+            "detail": "Found: p=0.0800"
+          }
+        ],
+        "all_passed": true
+      },
+      "summary": {
+        "overall_passed": true,
+        "chsh_threshold": 0.08,
+        "qber_threshold": 0.06,
+        "n_secure_asymmetric": 5
+      }
+    },
+    "exp_2_4_eve_attack": {
+      "experiment": "exp_2_4_eve_attack",
+      "timestamp": "2025-12-07T03:31:37.487151",
+      "tests": {
+        "intercept_resend_sweep": {
+          "type": "intercept_resend_sweep",
+          "results": [
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.0,
+              "n_pairs": 12000,
+              "n_sifted": 5523,
+              "sifting_rate": 0.5096428900987359,
+              "chsh_value": 2.90936009459584,
+              "chsh_std": 0.08059935623542885,
+              "chsh_violation": true,
+              "qber": 0.0,
+              "qber_ci": 0.0034555346310838255,
+              "eve_info_bits": 0.0,
+              "detected": false,
+              "detection_method": "Not detected",
+              "qber_theory": 0.0,
+              "chsh_theory": 2.8284271247461903,
+              "eve_info_theory": 0.0
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.1,
+              "n_pairs": 12000,
+              "n_sifted": 5394,
+              "sifting_rate": 0.5,
+              "chsh_value": 2.5380212771840265,
+              "chsh_std": 0.08855803957681094,
+              "chsh_violation": true,
+              "qber": 0.03153988868274583,
+              "qber_ci": 0.015071321655765156,
+              "eve_info_bits": 0.05,
+              "detected": false,
+              "detection_method": "Not detected",
+              "qber_theory": 0.025,
+              "chsh_theory": 2.6870057685088806,
+              "eve_info_theory": 0.05
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.2,
+              "n_pairs": 12000,
+              "n_sifted": 5362,
+              "sifting_rate": 0.4940569427807979,
+              "chsh_value": 2.226031014621179,
+              "chsh_std": 0.09844240303545218,
+              "chsh_violation": true,
+              "qber": 0.03917910447761194,
+              "qber_ci": 0.016692052046450623,
+              "eve_info_bits": 0.1,
+              "detected": false,
+              "detection_method": "Not detected",
+              "qber_theory": 0.05,
+              "chsh_theory": 2.5455844122715714,
+              "eve_info_theory": 0.1
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.3,
+              "n_pairs": 12000,
+              "n_sifted": 5368,
+              "sifting_rate": 0.4975437946056168,
+              "chsh_value": 1.9521433248420812,
+              "chsh_std": 0.10029398002809674,
+              "chsh_violation": false,
+              "qber": 0.07276119402985075,
+              "qber_ci": 0.0221208344973296,
+              "eve_info_bits": 0.15,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.075,
+              "chsh_theory": 2.4041630560342617,
+              "eve_info_theory": 0.15
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.4,
+              "n_pairs": 12000,
+              "n_sifted": 5422,
+              "sifting_rate": 0.500646352723915,
+              "chsh_value": 1.5457630290457038,
+              "chsh_std": 0.10778611179098946,
+              "chsh_violation": false,
+              "qber": 0.11808118081180811,
+              "qber_ci": 0.027205048652224745,
+              "eve_info_bits": 0.2,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.1,
+              "chsh_theory": 2.2627416997969525,
+              "eve_info_theory": 0.2
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.5,
+              "n_pairs": 12000,
+              "n_sifted": 5370,
+              "sifting_rate": 0.5000931272117712,
+              "chsh_value": 1.3864733477736575,
+              "chsh_std": 0.10539789041157713,
+              "chsh_violation": false,
+              "qber": 0.1303538175046555,
+              "qber_ci": 0.028496885420943443,
+              "eve_info_bits": 0.25,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.125,
+              "chsh_theory": 2.121320343559643,
+              "eve_info_theory": 0.25
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.6,
+              "n_pairs": 12000,
+              "n_sifted": 5445,
+              "sifting_rate": 0.5048210643426664,
+              "chsh_value": 0.9491175534260554,
+              "chsh_std": 0.11137171232292195,
+              "chsh_violation": false,
+              "qber": 0.1636029411764706,
+              "qber_ci": 0.031065476060758542,
+              "eve_info_bits": 0.3,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.15,
+              "chsh_theory": 1.9798989873223332,
+              "eve_info_theory": 0.3
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 0.8,
+              "n_pairs": 12000,
+              "n_sifted": 5374,
+              "sifting_rate": 0.49819226847130804,
+              "chsh_value": 0.5824816695092011,
+              "chsh_std": 0.11367807340030112,
+              "chsh_violation": false,
+              "qber": 0.1973929236499069,
+              "qber_ci": 0.033613986785018445,
+              "eve_info_bits": 0.4,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.2,
+              "chsh_theory": 1.697056274847714,
+              "eve_info_theory": 0.4
+            },
+            {
+              "attack_type": "intercept_resend",
+              "attack_strength": 1.0,
+              "n_pairs": 12000,
+              "n_sifted": 5489,
+              "sifting_rate": 0.506412030630132,
+              "chsh_value": 0.010358339502373972,
+              "chsh_std": 0.11745165019253109,
+              "chsh_violation": false,
+              "qber": 0.2664233576642336,
+              "qber_ci": 0.03692082363054194,
+              "eve_info_bits": 0.5,
+              "detected": true,
+              "detection_method": "CHSH violation lost",
+              "qber_theory": 0.25,
+              "chsh_theory": 1.4142135623730951,
+              "eve_info_theory": 0.5
+            }
+          ]
+        },
+        "decorrelation_sweep": {
+          "type": "decorrelation_sweep",
+          "results": [
+            {
+              "strength": 0.0,
+              "qber": 0.0,
+              "qber_theory": 0.0,
+              "chsh_value": 2.8983211270734612,
+              "chsh_theory": 2.8284271247461903,
+              "chsh_violation": true,
+              "detected": false,
+              "detection_method": "Not detected"
+            },
+            {
+              "strength": 0.1,
+              "qber": 0.03717472118959108,
+              "qber_theory": 0.05,
+              "chsh_value": 2.6695522299704413,
+              "chsh_theory": 2.5455844122715714,
+              "chsh_violation": true,
+              "detected": false,
+              "detection_method": "Not detected"
+            },
+            {
+              "strength": 0.2,
+              "qber": 0.0825515947467167,
+              "qber_theory": 0.1,
+              "chsh_value": 1.9995424334205254,
+              "chsh_theory": 2.2627416997969525,
+              "chsh_violation": false,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            },
+            {
+              "strength": 0.3,
+              "qber": 0.1425925925925926,
+              "qber_theory": 0.15,
+              "chsh_value": 2.018503074417965,
+              "chsh_theory": 1.9798989873223332,
+              "chsh_violation": true,
+              "detected": true,
+              "detection_method": "QBER threshold exceeded"
+            },
+            {
+              "strength": 0.4,
+              "qber": 0.19444444444444445,
+              "qber_theory": 0.2,
+              "chsh_value": 1.4881585126043293,
+              "chsh_theory": 1.697056274847714,
+              "chsh_violation": false,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            },
+            {
+              "strength": 0.5,
+              "qber": 0.25139664804469275,
+              "qber_theory": 0.25,
+              "chsh_value": 1.3405333418633911,
+              "chsh_theory": 1.4142135623730951,
+              "chsh_violation": false,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            }
+          ]
+        },
+        "cloning_attack": {
+          "type": "cloning_attack",
+          "results": [
+            {
+              "fidelity": 1.0,
+              "qber": 0.0,
+              "qber_theory": 0.0,
+              "chsh_value": 2.870950813280937,
+              "chsh_violation": true,
+              "eve_info": 0.0,
+              "detected": false,
+              "detection_method": "Not detected"
+            },
+            {
+              "fidelity": 0.8333333333333334,
+              "qber": 0.14684014869888476,
+              "qber_theory": 0.16666666666666663,
+              "chsh_value": 2.025064977265266,
+              "chsh_violation": true,
+              "eve_info": 0.6500224216483541,
+              "detected": true,
+              "detection_method": "QBER threshold exceeded"
+            },
+            {
+              "fidelity": 0.75,
+              "qber": 0.23302752293577983,
+              "qber_theory": 0.25,
+              "chsh_value": 1.3633023669996311,
+              "chsh_violation": false,
+              "eve_info": 0.8112781244591328,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            },
+            {
+              "fidelity": 0.6,
+              "qber": 0.3771106941838649,
+              "qber_theory": 0.4,
+              "chsh_value": 0.788033851411688,
+              "chsh_violation": false,
+              "eve_info": 0.9709505944546686,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            },
+            {
+              "fidelity": 0.5,
+              "qber": 0.5037037037037037,
+              "qber_theory": 0.5,
+              "chsh_value": -0.002615088845393493,
+              "chsh_violation": false,
+              "eve_info": 1.0,
+              "detected": true,
+              "detection_method": "CHSH violation lost"
+            }
+          ]
+        },
+        "detection_threshold": {
+          "type": "detection_threshold",
+          "results": [
+            {
+              "p_intercept": 0.0,
+              "qber": 0.0,
+              "qber_std": 0.0,
+              "chsh_value": 2.8759929465425906,
+              "chsh_std": 0.10637780714641691,
+              "eve_info": 0.0,
+              "detected": false,
+              "detection_rate": 0.0,
+              "method": "0/3 runs detected"
+            },
+            {
+              "p_intercept": 0.049999999999999996,
+              "qber": 0.020398998430531005,
+              "qber_std": 0.011495653429251183,
+              "chsh_value": 2.6549725109099667,
+              "chsh_std": 0.10873043020107939,
+              "eve_info": 0.024999999999999998,
+              "detected": false,
+              "detection_rate": 0.0,
+              "method": "0/3 runs detected"
+            },
+            {
+              "p_intercept": 0.09999999999999999,
+              "qber": 0.04032393060330677,
+              "qber_std": 0.007067645625692356,
+              "chsh_value": 2.4636108640576992,
+              "chsh_std": 0.1009877432631982,
+              "eve_info": 0.049999999999999996,
+              "detected": false,
+              "detection_rate": 0.0,
+              "method": "0/3 runs detected"
+            },
+            {
+              "p_intercept": 0.15,
+              "qber": 0.023662940971515178,
+              "qber_std": 0.007977085734773529,
+              "chsh_value": 2.5050967641254904,
+              "chsh_std": 0.18601501332426787,
+              "eve_info": 0.075,
+              "detected": false,
+              "detection_rate": 0.0,
+              "method": "0/3 runs detected"
+            },
+            {
+              "p_intercept": 0.19999999999999998,
+              "qber": 0.038669884687583804,
+              "qber_std": 0.003963815761201798,
+              "chsh_value": 2.1456101499053704,
+              "chsh_std": 0.2279392631026772,
+              "eve_info": 0.09999999999999999,
+              "detected": false,
+              "detection_rate": 0.3333333333333333,
+              "method": "1/3 runs detected"
+            },
+            {
+              "p_intercept": 0.24999999999999997,
+              "qber": 0.0660851724861295,
+              "qber_std": 0.013804158141360176,
+              "chsh_value": 2.055562622038136,
+              "chsh_std": 0.041904742221999254,
+              "eve_info": 0.12499999999999999,
+              "detected": false,
+              "detection_rate": 0.3333333333333333,
+              "method": "1/3 runs detected"
+            },
+            {
+              "p_intercept": 0.3,
+              "qber": 0.08251008255817521,
+              "qber_std": 0.016640930457379955,
+              "chsh_value": 1.9903730412746896,
+              "chsh_std": 0.04642544839264466,
+              "eve_info": 0.15,
+              "detected": true,
+              "detection_rate": 0.6666666666666666,
+              "method": "2/3 runs detected"
+            },
+            {
+              "p_intercept": 0.35,
+              "qber": 0.08415395030816458,
+              "qber_std": 0.03771278426705613,
+              "chsh_value": 2.0527693996998218,
+              "chsh_std": 0.1439176709649725,
+              "eve_info": 0.175,
+              "detected": true,
+              "detection_rate": 0.6666666666666666,
+              "method": "2/3 runs detected"
+            },
+            {
+              "p_intercept": 0.39999999999999997,
+              "qber": 0.09314296558458579,
+              "qber_std": 0.021995124673095084,
+              "chsh_value": 1.8129207850117457,
+              "chsh_std": 0.09266792012182967,
+              "eve_info": 0.19999999999999998,
+              "detected": true,
+              "detection_rate": 1.0,
+              "method": "3/3 runs detected"
+            },
+            {
+              "p_intercept": 0.44999999999999996,
+              "qber": 0.10582409239930325,
+              "qber_std": 0.016778282269908868,
+              "chsh_value": 1.6741345753256036,
+              "chsh_std": 0.16097243713668022,
+              "eve_info": 0.22499999999999998,
+              "detected": true,
+              "detection_rate": 1.0,
+              "method": "3/3 runs detected"
+            },
+            {
+              "p_intercept": 0.49999999999999994,
+              "qber": 0.13790276573403937,
+              "qber_std": 0.01677661742131658,
+              "chsh_value": 1.4730244364791576,
+              "chsh_std": 0.08728753632120562,
+              "eve_info": 0.24999999999999997,
+              "detected": true,
+              "detection_rate": 1.0,
+              "method": "3/3 runs detected"
+            },
+            {
+              "p_intercept": 0.5499999999999999,
+              "qber": 0.1108531131750946,
+              "qber_std": 0.005126886329820738,
+              "chsh_value": 1.3247212675159397,
+              "chsh_std": 0.08248091516437138,
+              "eve_info": 0.27499999999999997,
+              "detected": true,
+              "detection_rate": 1.0,
+              "method": "3/3 runs detected"
+            },
+            {
+              "p_intercept": 0.6,
+              "qber": 0.15841585471924488,
+              "qber_std": 0.008576175981456411,
+              "chsh_value": 1.152880465760664,
+              "chsh_std": 0.15018270251622742,
+              "eve_info": 0.3,
+              "detected": true,
+              "detection_rate": 1.0,
+              "method": "3/3 runs detected"
+            }
+          ],
+          "threshold": 0.3
+        }
+      },
+      "validation": {
+        "checks": [
+          {
+            "name": "No attack = not detected",
+            "passed": true,
+            "detail": "Zero attack detected: False"
+          },
+          {
+            "name": "Full attack = detected",
+            "passed": true,
+            "detail": "Full attack QBER: 26.6%"
+          },
+          {
+            "name": "QBER increases with attack",
+            "passed": true,
+            "detail": "Increasing pairs: 8/8"
+          },
+          {
+            "name": "CHSH decreases with attack",
+            "passed": true,
+            "detail": "Decreasing pairs: 8/8"
+          },
+          {
+            "name": "Optimal cloner gives ~17% QBER",
+            "passed": true,
+            "detail": "QBER: 14.7% (expected: 16.7%)"
+          }
+        ],
+        "all_passed": true
+      },
+      "summary": {
+        "overall_passed": true,
+        "detection_threshold": 0.3,
+        "n_detected": 6,
+        "n_total": 9
+      }
+    }
+  },
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0
+  }
+}

@@ -27,12 +27,11 @@ PHASE3_RESULTS = RESULTS_DIR / "phase3"
 for d in [RESULTS_DIR, PHASE1_RESULTS, PHASE2_RESULTS, PHASE3_RESULTS]:
     d.mkdir(parents=True, exist_ok=True)
 
-# IBM API Key path (set via environment variable or config file)
-import os
-IBM_API_KEY_PATH = Path(os.environ.get('IBM_QUANTUM_API_KEY_PATH', 'configs/apikey.json'))
+# IBM API Key path
+IBM_API_KEY_PATH = Path('/Users/Lenovo1/Downloads/quantum-conformal-entanglement/configs/apikey.json')
 
-# TARA module path (relative to project)
+# TARA module path
 import sys
-TARA_PATH = PROJECT_ROOT.parent / 'experiments'
-if TARA_PATH.exists() and str(TARA_PATH) not in sys.path:
+TARA_PATH = Path('/Users/Lenovo1/Desktop/conformal_open_source/experiments')
+if str(TARA_PATH) not in sys.path:
     sys.path.insert(0, str(TARA_PATH))

@@ -217,8 +217,11 @@ class TARAm:
         elif self.betting == 'jumper':
             return (1.0 - self.epsilon) * (pv ** (-self.epsilon))
         elif self.betting == 'twosided':
-            deviation = abs(0.5 - pv) * 2
-            return 1.0 + self.epsilon * deviation
+            # FIXED: Original was 1 + epsilon * 2|0.5-pv|, but E[bet] = 1.25 > 1
+            # under Uniform, causing monotonic wealth growth (100% FP).
+            # Corrected: E[bet] = 1 under Uniform by centering on E[deviation] = 0.5
+            deviation = abs(0.5 - pv) * 2  # [0, 1], E = 0.5 under Uniform
+            return 1.0 + self.epsilon * (deviation - 0.5)  # E[bet] = 1 under Uniform
         else:
             return 1.0
 
